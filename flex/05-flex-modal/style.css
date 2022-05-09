@@ -15,11 +15,27 @@ body {
   justify-content: center;
 }
 
+.header{
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  display: inline;
+  justify-content: left;
+  max-width: 360px;
 }
 
 .icon {
@@ -49,6 +65,7 @@ body {
 }
 
 button {
+  margin-top: 8px;
   padding: 8px 16px;
   border-radius: 8px;
 }
