@@ -1,0 +1,19 @@
+p{
+  font-family: Verdana, sans-serif;
+  background-color: pink;
+}
+
+p.stylish{
+  font-size: 24px;
+}
+
+#blues{
+  font-size: 36px;
+  color: blue;
+}
+
+#greens{
+  font-size: 24px;
+  font-weight: bold;
+  background-color: lightgreen;
+}
